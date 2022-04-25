@@ -71,34 +71,33 @@ body {
     border-radius: 55px;
 }
 
-.calculator-button.number {
+.calculator-button.number, .calculator-button.decimal {
     background-color: #666666;
     color: white;
     line-height: 85px;
 }
 
-.calculator-button.number:hover {
-    background-color: #666666;
-    color: white;
-}
-
-.calculator-button.operator {
+.calculator-button.operator, .calculator-button.operate {
     background-color: #FFA500;    ;
     color: white;
 }
 
-.calculator-button.functions {
+.calculator-button.functions, .calculator-button.uwu {
     background-color: #c4c4c4;
     line-height: 85px;
 }
 
-.calculator-button.number:hover{
+.calculator-button.uwu{
+    font-size: 30px;
+}
+
+.calculator-button.number:hover, .calculator-button.decimal:hover{
     background-color: #bebebe;
 }
-.calculator-button.operator:hover{
+.calculator-button.operator:hover, .calculator-button.operate:hover{
     background-color: #ffda94; 
 }
-.calculator-button.functions:hover {
+.calculator-button.functions:hover, .calculator-button.uwu:hover {
     background-color: #f0f0f0;  
 }
 
